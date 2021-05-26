@@ -7,12 +7,12 @@ Topics: **HTML Tags**
 ## Subtask 1
 
 Create a HTML page as following image:
-![subtask1](https://github.com/Dauntless-On-Mission/frontend-tasks/blob/main/Tasks/Task-1/images/subtask1.jpeg)
+![subtask1](https://github.com/Dauntless-On-Mission/frontend-tasks/blob/main/Tasks/Task-1/readme-images/subtask1.jpeg)
 
 ## Subtask 2
 
 Create a HTML page as following image:
-![subtask2](https://github.com/Dauntless-On-Mission/frontend-tasks/blob/main/Tasks/Task-1/images/subtask2.jpeg)
+![subtask2](https://github.com/Dauntless-On-Mission/frontend-tasks/blob/main/Tasks/Task-1/readme-images/subtask2.jpeg)
 
 **First six images are normal (not clickable), but clicking on last 3 images should redirect to their respective link acc. to their logo in new tab.**
 

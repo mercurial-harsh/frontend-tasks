@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* ONLY BACKGROUND */
+    /* background: url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg'); */
+
+    /* BACKGROUNd WITH GIVEN COLOR */
+    /* background-image:  linear-gradient(115deg, rgba(27, 27, 50, 0.8),rgba(136, 136, 206, 0.7)), 
+        url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg') ; */
+
+    background-image:  linear-gradient(90deg, rgba(18, 18, 212, 0.8),rgba(226, 61, 19, 0.7)), 
+        url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    /* height: 100vh;
+    width: 100%; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+header p{
+    font-size: 14px;
+}
+
+form{
+    width: max-content;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    /* justify-content:flex-start; */
+    background-color: rgba(27, 27, 50, 0.8);
+    color: white;
+    padding: 20px;
+
+    /* width: 70vh; */
+}
+
+form input{
+    height: 25px;
+}
+
+form input, form textarea, button{
+    border-radius: 3px;
+}
+
+
+input[type="text"], input[type="email"], input[type="number"], textarea{
+    width: 100%;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="number"]::placeholder, textarea::placeholder{
+    padding-left: 5px;
+}
+
+.margin_top{
+    margin-top: 15px;
+}
+
+.margin_bottom{
+    margin-bottom: 15px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #37af65;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
